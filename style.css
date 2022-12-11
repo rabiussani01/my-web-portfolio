@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+#salam{
+    font-size: 18px;
+    color: rgb(80, 34, 34);
+}
+.name-style{
+    color: orange;
+}
+.first-half{
+    width: 40%;
+    float: left;
+    margin: 30px;
+    padding: 2%;
+}
+.first-half img{
+    width: 100%;
+}
+.top-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.hire{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    font-weight: medium;
+}
+.shadow-area{
+    box-shadow: 10px 10px 40px grey;
+    height: 60%;
+    border-radius: 10px;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#f1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#f2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.foot-area{
+    text-align: center;
+    font-size: 12px;
+}
